@@ -45,6 +45,5 @@ function calculateResult($marks) {
     echo "Grade: $grade\n";
 }
 
-$marks = [70, 82, 65, 90, 55]; // Example marks for 5 subjects
+$marks = [70, 82, 65, 90, 55]; 
 calculateResult($marks);
-
