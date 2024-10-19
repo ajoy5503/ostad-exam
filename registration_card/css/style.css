@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #091057;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.reg-form-area {
+    width: 500px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 30px;
+
+}
+
+.reg-form-area h2 {
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.form-card label {
+    font-size: 14px;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.form-card {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    font-size: 14px;
+    height: 46px;
+    font-weight: 500;
+}
+
+.form-check-area {
+    display: flex;
+    align-items: center;
+}
+
+.mr-3 {
+    margin-right: 15px;
+}
+
+.btn-danger {
+    background: #333333;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dd1818, #333333);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dd1818, #333333);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.btn-success {
+    background: #11998e;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
